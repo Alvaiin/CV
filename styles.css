@@ -15,23 +15,20 @@ body {
 }
 
 h1{
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 50px;
 }
 
 ul{
     list-style: none;
 }
 
-nav ul a li{
+.menu a{
+    padding: 10px 10px;
     border-width: 3px;
     border-style: outset;
-    padding: 10px 10px;
     border-radius: 5px;
     border-color: cadetblue;
-    
-}
-
-nav ul a{
     display: inline-block;
     margin: 0% 5%;
     text-decoration: none;
@@ -39,3 +36,8 @@ nav ul a{
     font-family: 'Noto Sans KR', sans-serif;
     color: black;
 }
+
+.menu a:hover {
+    background-color: rgb(0, 0, 139, 0.3);
+}
+
