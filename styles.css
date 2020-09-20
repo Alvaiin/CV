@@ -1,6 +1,6 @@
 body {
-    background-image: url("imagenes/3040791.jpg");
-    background-size: 700px;
+    background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/113361-turquoise-blurred-background-vector.jpg?w=800&q=95");
+    background-size: cover;
     text-align: center;
 }
 
@@ -16,25 +16,24 @@ body {
 
 h1{
     font-family: 'Arimo', sans-serif;
-    text-align: center;
 }
 
 ul{
     list-style: none;
 }
 
-nav ul li{
-    display: inline;
-    margin: 5% 5%;
+nav ul a li{
     border-width: 3px;
     border-style: outset;
     padding: 10px 10px;
     border-radius: 5px;
-    box-shadow: cadetblue;
+    border-color: cadetblue;
+    
 }
 
-
-nav ul li a{
+nav ul a{
+    display: inline-block;
+    margin: 0% 5%;
     text-decoration: none;
     font-size: large;
     font-family: 'Noto Sans KR', sans-serif;
