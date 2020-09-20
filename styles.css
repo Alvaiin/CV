@@ -1,0 +1,42 @@
+body {
+    background-image: url("imagenes/3040791.jpg");
+    background-size: 700px;
+    text-align: center;
+}
+
+.profile_pic {
+    width: 250px;
+    border-radius: 200%;
+    margin: 10px 10px;
+}
+
+.presentacion{
+    font-size: 1.5em;
+}
+
+h1{
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 5% 5%;
+    border-width: 3px;
+    border-style: outset;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: cadetblue;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+}
